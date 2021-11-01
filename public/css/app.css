@@ -1,0 +1,32 @@
+.logo {
+  position: absolute;
+  top: 65px;
+  left: 65px;
+  font-size: 36px;
+  font-weight: 800;
+  border-radius: 8px;
+  padding: 0px 10px;
+  background-color: white;
+  border: 3px solid black;
+  color: black;
+  /* -webkit-text-stroke: 2.5px black; */
+}
+.logo span {
+  transition: 0.5s;
+}
+
+.logo:hover .C {
+  color: #9381ff;
+}
+.logo:hover .o {
+  color: #7AE6EB;
+  transition-delay: 0.05s;
+}
+.logo:hover .l {
+  color: #ff8500;
+  transition-delay: 0.1s;
+}
+.logo:hover .r {
+  color: #ef233c;
+  transition-delay: 0.15s;
+}

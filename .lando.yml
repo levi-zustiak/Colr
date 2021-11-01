@@ -1,0 +1,5 @@
+name: colr
+recipe: laravel
+config:
+  webroot: public
+  database: mysql
